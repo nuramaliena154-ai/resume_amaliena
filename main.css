@@ -10,16 +10,6 @@ header {
   padding: 27px 0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-
-.nav-list a {
-  padding: 8px 11px;
-  background: white;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  color: purple;
-}
-
 main.container {
   max-width: 900px;
   margin: 40px auto;
@@ -59,3 +49,4 @@ footer {
   margin-top: 40px;
   padding: 20px 0;
 }
+
