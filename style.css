@@ -46,3 +46,11 @@ ul.chips li {
     margin-bottom: 8px;
   }
 }
+.nav-link {
+  padding: 8px 11px;
+  background: white;
+  border-radius: 20px;
+  font-weight: bold;
+  color: purple;
+  text-decoration: none;
+}
