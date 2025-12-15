@@ -68,7 +68,6 @@
   }
 }
 
-/* ===== NAVIGATION (LUAR MEDIA QUERY) ===== */
 nav {
   display: flex;
   justify-content: center;
@@ -96,6 +95,7 @@ nav {
   text-decoration: none;
   display: inline-block;
 }
+
 
 
 
