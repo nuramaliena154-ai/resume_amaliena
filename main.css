@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
   margin: 0;
@@ -7,7 +8,16 @@ body {
 header {
   background: linear-gradient(90deg, #ff9acb, #b3d4f5);
   padding: 27px 0;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list a {
+  padding: 8px 11px;
+  background: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: purple;
 }
 
 main.container {
@@ -17,14 +27,35 @@ main.container {
 }
 
 .card {
-  background: #fff;
+  background: #ffffff;
   padding: 28px;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  border-left: 8px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-left: 8px solid #cccccc;
+}
+
+.big-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 
 .section-title {
   color: #e6418b;
   font-weight: 700;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+h3 {
+  margin-top: 22px;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
 }
