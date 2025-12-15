@@ -27,7 +27,6 @@
   transform: scale(1.05);
 }
 
-/* Table */
 .skill-table {
   width: 100%;
   border-collapse: collapse;
@@ -76,9 +75,11 @@
 .nav-link {
   padding: 8px 11px;
   background: white;
+  justify-content: center;
   border-radius: 20px;
   font-weight: bold;
   color: purple;
   text-decoration: none;
 }
+
 
