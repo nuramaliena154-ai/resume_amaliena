@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, #ff9acb, #b3d4f5);
+  padding: 27px 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+main.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-left: 8px solid #ccc;
+}
+
+.section-title {
+  color: #e6418b;
+  font-weight: 700;
+}
