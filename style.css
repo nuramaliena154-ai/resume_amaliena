@@ -1,27 +1,12 @@
-.skill-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
-  background: #ffe8f5;
-  border: 2px solid #d28ccf;
-  border-radius: 10px;
+.skills-section {
+  margin-top: 20px;
 }
 
-.skill-table th {
-  background: #f4c8e4;
-  padding: 12px;
-  text-align: left;
-  border: 1px solid #d28ccf;
+.intro-text {
+  color: #555;
 }
 
-.skill-table td {
-  background: #fff0fa;
-  padding: 10px;
-  border: 1px solid #d28ccf;
-}
-
-/* Skill chips */
-ul.chips {
+.chips {
   list-style: none;
   padding: 0;
   display: flex;
@@ -29,23 +14,65 @@ ul.chips {
   gap: 12px;
 }
 
-ul.chips li {
+.chips li {
   background: #f8e8ff;
   padding: 10px 18px;
   border-radius: 25px;
   font-weight: bold;
+  transition: 0.3s;
 }
 
-@media (max-width: 520px) {
-  ul.chips {
-    display: block;
+.chips li:hover {
+  background: #ffd6eb;
+  transform: scale(1.05);
+}
+
+/* Table */
+.skill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #ffe8f5;
+}
+
+.skill-table th,
+.skill-table td {
+  border: 1px solid #d28ccf;
+  padding: 12px;
+  text-align: left;
+}
+
+.skill-table th {
+  background: #f4c8e4;
+}
+
+.soft-skills {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.soft-skills li {
+  margin-bottom: 6px;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+.card ul li {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .chips {
+    flex-direction: column;
   }
 
-  ul.chips li {
-    display: inline-block;
-    margin-bottom: 8px;
+  .chips li {
+    text-align: center;
   }
 }
+
 .nav-link {
   padding: 8px 11px;
   background: white;
@@ -54,3 +81,4 @@ ul.chips li {
   color: purple;
   text-decoration: none;
 }
+
