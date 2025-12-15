@@ -1,0 +1,110 @@
+<html> 
+<head>
+<title>HOME:INDEX</title>
+<link rel="stylesheet" type="assets" href="style.css">
+</head>
+<body style="background-image: url('wallpaper.jpeg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+
+<div style="text-align:center; margin-top:20px;">
+  <div id="clock" style="font-size:18px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
+    Current Time: --
+  </div>
+</div>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+    const time = now.toLocaleTimeString();
+    document.getElementById("clock").textContent = "Current Time: " + time;
+  }
+  setInterval(updateClock, 1000);
+  updateClock();
+</script>
+
+<center>
+<header>
+  <div style="background:white; width:200px; padding:10px; border-radius:10px;">
+    <img src="amaliena.jpg" width="200" style="border-radius:100%; box-shadow:0 0 20px hotpink;"> 
+  </div>
+
+  <h1 style="background:pink; padding:15px; border-radius:10px; width:70%; margin:auto; box-shadow:0 0 10px hotpink;">
+    MY RESUME : HOME
+  </h1>
+</header>
+
+<nav style="background:white; padding:10px; width:70%; margin:auto; margin-top:15px; border-radius:10px; box-shadow:0 0 10px #ff88c2;">
+<b>MENU</b><br>
+<a href="index.html">HOME</a> |
+<a href="about.html">ABOUT</a> |
+<a href="skills.html">SKILLS</a> |
+<a href="experience.html">EXPERIENCE</a> |
+<a href="education.html">EDUCATION</a> |
+<a href="family.html">FAMILY</a> |
+<a href="gallery.html">GALLERY</a> |
+
+<br><br>
+SOCIAL MEDIA :<br>
+<a href="https://www.instagram.com/nram4n/" target="_blank">
+<img src="ig.jpg" width ="55" height="55" style="border-radius:10px;"></a>
+<a href="https://www.tiktok.com/@flowers2__?lang=en" target="_blank"> 
+<img src="tiktok.png" width="55" height="55" style="border-radius:10px;"></a>
+</nav>
+
+<br>
+
+<section style="background:white; width:70%; margin:auto; padding:20px; border-radius:15px; box-shadow:0 0 15px #ff7eb3;">
+  
+  <h1 id="welcomeText" style="color:hotpink; opacity:0; transition:1.5s;">Welcome to My Resume Website</h1>
+
+  <p>Hi! My name is <b>NUR AMALIENA BINTI HAITUNIZAM</b>.<br>
+  This is my personal resume website for <b>IMD318</b>.  
+  I hope you enjoy reading about my education, skills, and more!</p>
+
+  <button onclick="showMessage()" 
+  style="padding:8px 14px; background:#e6418b; color:white; border:none; border-radius:8px; margin-top:10px;">
+  Click Me for a Surprise
+  </button>
+
+  <div id="clock" style="font-size:18px; font-weight:bold; color:#e6418b; margin-top:15px;"></div>
+
+  <div style="background:#ffe6f2; padding:15px; border-radius:10px; width:70%; margin:auto; box-shadow:0 0 10px #ff9ccc; margin-top:20px;">
+    <h2 style="color:#d6006c;">About Me <span style='font-size:25px;'>&#129493;</span></h2>
+    <p>I am a UiTM Segamat student  who loves learning HTML and designing cute simple webpages.</p>
+  </div>
+
+  <br>
+
+  <div style="background:#fff0f6; padding:15px; border-radius:10px; width:70%; margin:auto; box-shadow:0 0 10px #ffb3d9;">
+    <h2 style="color:#cc007a;">Quick Details</h2>
+    <ul style="list-style-type:square; text-align:left; margin-left:25%;">
+      <li>Full Name: Nur Amaliena Binti Haitunizam</li>
+      <li>Course: IMD318 – Web Content Management</li>
+      <li>Interest: Korean Drama &#127909;, Novel &#128218;, Music &#127900;</li>
+      <li>Personality: Friendly &#128109;, creative &#127912;, love color pink &#128151;</li>
+    </ul>
+  </div>
+
+  <br>
+  <marquee style="color:#b30059; font-weight:bold;">Welcome to my resume website ♥ Stay happy, stay pink! &#127872;</marquee>
+
+</section>
+
+<footer style="margin-top:20px;">
+  <p style="background:white; padding:10px; width:80%; margin:auto; border-radius:10px; box-shadow:0 0 10px hotpink;">
+  Copyright &copy; NUR AMALIENA BINTI HAITUNIZAM
+  </p>
+</footer>
+
+<script>
+  // Alert Button
+  function showMessage() {
+    alert("Hi! Thanks for visiting my page ❤️");
+  }
+
+  window.onload = function() {
+    document.getElementById("welcomeText").style.opacity = 1;
+  };
+</script>
+
+</body>
+</html>
