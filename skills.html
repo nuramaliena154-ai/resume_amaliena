@@ -1,130 +1,34 @@
 <html>
 <head>
   <title>Skills</title>
-<link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    main.container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    .card {
-      background: #fff;
-      padding: 28px;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      border-left: 8px solid #ccc;
-    }
-
-    .big-title {
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 4px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0 8px;
-      margin-top: 15px;
-    }
-
-    table th, table td {
-      padding: 10px 14px;
-      background: #f7f7f7;
-      border-radius: 8px;
-      text-align: left;
-    }
-
-    p {
-      line-height: 1.6;
-      margin-top: 8px;
-    }
-
-    h3 {
-      margin-top: 22px;
-      font-size: 20px;
-    }
-
-    .skill-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 15px;
-      background: #ffe8f5;
-      border: 2px solid #d28ccf;
-      border-radius: 10px;
-    }
-
-    .skill-table th {
-      background: #f4c8e4;
-      padding: 12px;
-      text-align: left;
-      border: 1px solid #d28ccf;
-    }
-
-    header {
-      background: linear-gradient(90deg, #ff9acb, #b3d4f5);
-      padding: 27px 0;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    }
-
-    .skill-table td {
-      background: #fff0fa;
-      padding: 10px;
-      border: 1px solid #d28ccf;
-    }
-
-    .section-title {
-      color: #e6418b;
-      font-weight: 700;
-    }
-
-    /* small responsive tweak for the tech-skills chips */
-    @media (max-width: 520px) {
-      ul.chips { display:block; }
-      ul.chips li { display:inline-block; margin-bottom:8px; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-  <header>
-    <div style="text-align:center; padding-bottom:10px;">
-      <h1 style="margin:10px;">NUR AMALIENA — Personal Resume Website</h1>
-      <div style="
-        margin-top:4px;
-        color:black;
-        font-style:italic;
-        font-family:'Dancing Script';
-        font-size:19px;
-        font-weight:600;">
-        "You are capable of more than you think — trust your efforts"
-      </div>
+<body class="body-about">
+
+<header>
+  <div class="center">
+    <h1>NUR AMALIENA — Personal Resume Website</h1>
+    <div class="header-quote">
+      "You are capable of more than you think — trust your efforts"
     </div>
-
-    <nav class="nav-list" style="display:flex; justify-content:center; gap:8px; padding:12px 0;">
-      <a href="index.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Home</a>
-      <a href="about.html" class="active" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">About</a>
-      <a href="skills.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Skills</a>
-      <a href="experience.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Experience</a>
-      <a href="education.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Education</a>
-      <a href="family.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Family</a>
-      <a href="gallery.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Gallery</a>
-    </nav>
-  </header>
-
-<link rel="stylesheet" href="style.css">
-<div style="text-align:center; margin-top:20px;">
-  <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
-    Current Time: --
   </div>
+
+  <nav class="nav-list">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="experience.html">Experience</a>
+    <a href="education.html">Education</a>
+    <a href="family.html">Family</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+</header>
+
+<div class="center" style="margin-top:20px;">
+  <div id="clock">Current Time: --</div>
+</div>
+
 <script>
   function updateClock() {
     const now = new Date();
@@ -134,93 +38,95 @@
   setInterval(updateClock, 1000);
   updateClock();
 </script>
-</div>
-  <main class="container">
-    <div class="card">
-      <h2 class="section-title big-title">Skills &hearts;</h2>
-      <p class="muted">
-        Below are the technical, soft and additional competencies I developed throughout my learning journey in Information Management.
-      </p>
 
-      <h3 class="section-title">Technical Skills &#128161;</h3>
+<main class="container">
+  <div class="card">
 
-      <ul class="chips" style="list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:12px;">
-        <li style="background:#f8e8ff; padding:10px 18px; border-radius:25px; font-weight:bold;">HTML</li>
-        <li style="background:#f8e8ff; padding:10px 18px; border-radius:25px; font-weight:bold;">Canva</li>
-        <li style="background:#f8e8ff; padding:10px 18px; border-radius:25px; font-weight:bold;">Basic Computer Skills</li>
-        <li style="background:#f8e8ff; padding:10px 18px; border-radius:25px; font-weight:bold;">Microsoft Office (Word, PowerPoint, Excel)</li>
-      </ul>
+    <h2 class="section-title big-title">Skills &hearts;</h2>
+    <p class="muted">
+      Below are the technical, soft and additional competencies I developed throughout my learning journey in Information Management.
+    </p>
 
-      <h3 class="section-title">Skill Proficiency Level &#128293;</h3>
+    <h3 class="section-title">Technical Skills &#128161;</h3>
 
-      <table class="skill-table">
-        <tr>
-          <th>Skill</th>
-          <th>Level</th>
-          <th>Experience</th>
-        </tr>
-        <tr>
-          <td><b>Canva</b></td>
-          <td>Basic</td>
-          <td>Create posters, infographics & slides</td>
-        </tr>
-        <tr>
-          <td><b>HTML</b></td>
-          <td>Basic</td>
-          <td>Basic web structure & simple troubleshooting</td>
-        </tr>
-        <tr>
-          <td><b>Microsoft Office</b></td>
-          <td>Intermediate</td>
-          <td>Reports, presentations & basic tables</td>
-        </tr>
-      </table>
+    <ul class="subject-list">
+      <li>HTML</li>
+      <li>Canva</li>
+      <li>Basic Computer Skills</li>
+      <li>Microsoft Office (Word, PowerPoint, Excel)</li>
+    </ul>
 
-      <h3 class="section-title">Soft Skills &#128269;</h3>
+    <h3 class="section-title">Skill Proficiency Level &#128293; </h3>
 
-      <ul style="margin-left:20px; line-height:1.6; list-style:square;">
-        <li>Strong communication - Able to communicate in group work and basic presentations</li>
-        <li>Time & task management - Planning tasks and managing deadlines.</li>
-        <li>Team collaboration - Experienced in working on group assignments.</li>
-        <li>Problem solving & decision making - Handling small tasks or issues in assignments/projects.</li>
-        <li>Adaptability - Able to learn new things quickly.</li>
-      </ul>
+    <table class="skill-table">
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td><b>Canva</b></td>
+        <td>Basic</td>
+        <td>Create posters, infographics & slides</td>
+      </tr>
+      <tr>
+        <td><b>HTML</b></td>
+        <td>Basic</td>
+        <td>Basic web structure & simple troubleshooting</td>
+      </tr>
+      <tr>
+        <td><b>Microsoft Office</b></td>
+        <td>Intermediate</td>
+        <td>Reports, presentations & basic tables</td>
+      </tr>
+    </table>
 
-      <h3 class="section-title">Additional Competencies &#128165;</h3>
+    <h3 class="section-title">Soft Skills &#128269;</h3>
 
-      <ol style="margin-left:22px; line-height:1.6;">
-        <li>Organizing Notes & Study Materials</li>
-        <li>Document formatting & digital filing (Microsoft Office & Google Workspace)</li>
-        <li>Designing posters, infographics & layouts using Canva</li>
-        <li>Basic Customer Service Skills</li>
-      </ol>
+    <ul class="soft-skill-list">
+      <li>Strong communication - Able to communicate in group work and basic presentations</li>
+      <li>Time & task management - Planning tasks and managing deadlines</li>
+      <li>Team collaboration - Experienced in working on group assignments</li>
+      <li>Problem solving & decision making - Handling small tasks or issues in assignments/projects</li>
+      <li>Adaptability - Able to learn new things quickly</li>
+    </ul>
 
-      <h3 class="section-title">General Skills List &#128202;</h3>
-      <ul style="margin-left:20px; line-height:1.6; list-style:circle;">
-        <li>Creative Thinking</li>
-        <li>Basic Research Skills</li>
-        <li>Presentation Skills</li>
-      </ul>
+    <h3 class="section-title">Additional Competencies &#128165;</h3>
 
-      <h3 class="section-title">Technical & Digital Skills &#128187;</h3>
-      <ul style="margin-left:20px; line-height:1.6; list-style:none;">
-        <li style="margin-bottom:6px;"><span style="color:#e6418b; font-weight:bold;">✦</span> File management using Google Drive</li>
-        <li style="margin-bottom:6px;"><span style="color:#e6418b; font-weight:bold;">✦</span> Creating simple website layout</li>
-        <li style="margin-bottom:6px;"><span style="color:#e6418b; font-weight:bold;">✦</span> Visual designing using Canva</li>
-      </ul>
+    <ol class="additional-list">
+      <li>Organizing Notes & Study Materials</li>
+      <li>Document formatting & digital filing (Microsoft Office & Google Workspace)</li>
+      <li>Designing posters, infographics & layouts using Canva</li>
+      <li>Basic Customer Service Skills</li>
+    </ol>
 
+    <h3 class="section-title">General Skills List &#128202;</h3>
+    <ul class="general-skill-list">
+      <li>Creative Thinking</li>
+      <li>Basic Research Skills</li>
+      <li>Presentation Skills</li>
+    </ul>
+
+    <h3 class="section-title">Technical & Digital Skills &#128187;</h3>
+    <ul class="tech-skill-list">
+      <li>✦ File management using Google Drive</li>
+      <li>✦ Creating simple website layout</li>
+      <li>✦ Visual designing using Canva</li>
+    </ul>
+
+  </div>
+</main>
+
+<footer>
+  <center>
+    <div class="muted">
+      This website is developed by NUR AMALIENA BINTI HAITUNIZAM for IMD318 assignment.
     </div>
-  </main>
-
-  <footer>
-    <center>
-      <div class="muted">
-        This website is developed by NUR AMALIENA BINTI HAITUNIZAM for IMD318 assignment.
-      </div>
-      <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
-    </center>
-  </footer>
+    <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
+  </center>
+</footer>
 
 </body>
 </html>
+
 
