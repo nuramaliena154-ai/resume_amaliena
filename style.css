@@ -68,35 +68,6 @@
   }
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: center;
-  list-style: none;   
-  padding: 0;
-  margin: 0;
-  gap: 8px;
-}
-
-.nav-list li {
-  margin: 0;
-}
-
-.nav-link {
-  padding: 8px 11px;
-  background: white;
-  border-radius: 20px;
-  font-weight: bold;
-  color: purple;
-  text-decoration: none;
-  display: inline-block;
-}
-
-
 
 
 
