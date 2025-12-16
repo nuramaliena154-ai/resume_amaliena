@@ -88,9 +88,9 @@ body {
   </style>
 </head>
 <body>
-header {
+.header-title {
   text-align: center;
-  padding-bottom: 10px;
+  width: 100%;
 }
 
 .header-title h1 {
@@ -126,6 +126,7 @@ header {
   font-weight: bold;
   color: purple;
 }
+
 
 
 
