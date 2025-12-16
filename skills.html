@@ -86,6 +86,7 @@
       font-weight: 700;
     }
 
+    /* small responsive tweak for the tech-skills chips */
     @media (max-width: 520px) {
       ul.chips { display:block; }
       ul.chips li { display:inline-block; margin-bottom:8px; }
@@ -118,6 +119,8 @@
       <a href="gallery.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Gallery</a>
     </nav>
   </header>
+
+<link rel="stylesheet" href="style.css">
 <div style="text-align:center; margin-top:20px;">
   <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
     Current Time: --
@@ -131,7 +134,7 @@
   setInterval(updateClock, 1000);
   updateClock();
 </script>
-
+</div>
   <main class="container">
     <div class="card">
       <h2 class="section-title big-title">Skills &hearts;</h2>
@@ -174,7 +177,7 @@
       </table>
 
       <h3 class="section-title">Soft Skills &#128269;</h3>
- <ul class="soft-skills">
+
       <ul style="margin-left:20px; line-height:1.6; list-style:square;">
         <li>Strong communication - Able to communicate in group work and basic presentations</li>
         <li>Time & task management - Planning tasks and managing deadlines.</li>
@@ -200,7 +203,7 @@
       </ul>
 
       <h3 class="section-title">Technical & Digital Skills &#128187;</h3>
-      <ul class= "chips">
+      <ul style="margin-left:20px; line-height:1.6; list-style:none;">
         <li style="margin-bottom:6px;"><span style="color:#e6418b; font-weight:bold;">✦</span> File management using Google Drive</li>
         <li style="margin-bottom:6px;"><span style="color:#e6418b; font-weight:bold;">✦</span> Creating simple website layout</li>
         <li style="margin-bottom:6px;"><span style="color:#e6418b; font-weight:bold;">✦</span> Visual designing using Canva</li>
@@ -220,3 +223,4 @@
 
 </body>
 </html>
+
