@@ -1,7 +1,11 @@
+body {
+  background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 body.with-wallpaper {
-  background: 
-    linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff),
-    url('wallpaper.jpeg');
+  background-image: url('wallpaper.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -175,6 +179,7 @@ footer .footer-copy {
   border-radius: 12px;
   border: none;
 }
+
 
 
 
