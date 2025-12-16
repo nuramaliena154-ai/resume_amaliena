@@ -150,6 +150,30 @@ footer .footer-copy {
   color: #e6418b;
   margin-bottom: 10px;
 }
+/* ===== FUN FACTS ===== */
+.fun-title {
+  color: purple;
+  margin-top: 18px;
+}
+.media-audio {
+  width: 440px;
+}
+
+.media-video {
+  width: 440px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 17px pink;
+}
+
+.media-spotify {
+  width: 100%;
+  height: 352px;
+  border-radius: 12px;
+  border: none;
+}
+
 
 
 
