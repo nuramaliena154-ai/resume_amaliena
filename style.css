@@ -81,7 +81,6 @@ body {
       font-weight: 700;
     }
 
-    /* small responsive tweak for the tech-skills chips */
     @media (max-width: 520px) {
       ul.chips { display:block; }
       ul.chips li { display:inline-block; margin-bottom:8px; }
@@ -107,7 +106,6 @@ header {
   font-weight: 600;
 }
 
-/* NAVIGATION */
 .nav-list {
   display: flex;
   justify-content: center;
@@ -156,5 +154,6 @@ header {
       <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
     </center>
   </footer>
+
 
 
