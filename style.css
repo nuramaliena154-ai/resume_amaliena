@@ -94,6 +94,7 @@ header {
 }
 
 .header-title h1 {
+ text-align: center;    
   margin: 10px;
 }
 
@@ -137,14 +138,8 @@ header {
   updateClock();
 </script>
 </div>
- <footer>
-    <center>
-      <div class="muted">
-        This website is developed by NUR AMALIENA BINTI HAITUNIZAM for IMD318 assignment.
-      </div>
-      <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
-    </center>
-  </footer>
+
+
 
 
 
