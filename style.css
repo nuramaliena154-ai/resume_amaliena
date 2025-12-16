@@ -106,6 +106,24 @@ header {
   font-weight: 600;
 }
 
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.header-title h1 {
+  margin: 10px;
+}
+
+.header-quote {
+  margin-top: 4px;
+  color: black;
+  font-style: italic;
+  font-family: 'Dancing Script', cursive;
+  font-size: 19px;
+  font-weight: 600;
+}
+
 .nav-list {
   display: flex;
   justify-content: center;
@@ -120,10 +138,11 @@ header {
   text-decoration: none;
   font-weight: bold;
   color: purple;
+  transition: 0.3s;
 }
 
 .nav-list a:hover {
-  background: #f3e8ff;
+  background: #f2e6ff;
 }
 
 .nav-list a.active {
@@ -131,7 +150,6 @@ header {
   color: white;
 }
 
- 
 <div style="text-align:center; margin-top:20px;">
   <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
     Current Time: --
@@ -154,6 +172,7 @@ header {
       <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
     </center>
   </footer>
+
 
 
 
