@@ -1,90 +1,130 @@
 body {
-  background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+      background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
-main.container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
+    main.container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-.card {
-  background: #fff;
-  padding: 28px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  border-left: 8px solid #ccc;
-}
-header {
-  background: linear-gradient(90deg, #ff9acb, #b3d4f5);
-  padding: 27px 0;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-}
+    .card {
+      background: #fff;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-left: 8px solid #ccc;
+    }
 
-.big-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 4px;
-}
+    .big-title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
 
-.section-title {
-  color: #e6418b;
-  font-weight: 700;
-}
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0 8px;
+      margin-top: 15px;
+    }
 
-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 8px;
-  margin-top: 15px;
-}
+    table th, table td {
+      padding: 10px 14px;
+      background: #f7f7f7;
+      border-radius: 8px;
+      text-align: left;
+    }
 
-table th,
-table td {
-  padding: 10px 14px;
-  background: #f7f7f7;
-  border-radius: 8px;
-  text-align: left;
-}
+    p {
+      line-height: 1.6;
+      margin-top: 8px;
+    }
 
-.skill-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
-  background: #ffe8f5;
-  border: 2px solid #d28ccf;
-  border-radius: 10px;
-}
+    h3 {
+      margin-top: 22px;
+      font-size: 20px;
+    }
 
-.skill-table th {
-  background: #f4c8e4;
-  padding: 12px;
-  border: 1px solid #d28ccf;
-}
+    .skill-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background: #ffe8f5;
+      border: 2px solid #d28ccf;
+      border-radius: 10px;
+    }
 
-.skill-table td {
-  background: #fff0fa;
-  padding: 10px;
-  border: 1px solid #d28ccf;
-}
+    .skill-table th {
+      background: #f4c8e4;
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #d28ccf;
+    }
 
-p {
-  line-height: 1.6;
-  margin-top: 8px;
-}
+    header {
+      background: linear-gradient(90deg, #ff9acb, #b3d4f5);
+      padding: 27px 0;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
 
-h3 {
-  margin-top: 22px;
-  font-size: 20px;
-}
+    .skill-table td {
+      background: #fff0fa;
+      padding: 10px;
+      border: 1px solid #d28ccf;
+    }
 
-#clock {
-  font-size: 15px;
-  font-weight: bold;
-  color: #e6418b;
-  margin-bottom: 10px;
-  text-align: center;
-}
+    .section-title {
+      color: #e6418b;
+      font-weight: 700;
+    }
 
+    /* small responsive tweak for the tech-skills chips */
+    @media (max-width: 520px) {
+      ul.chips { display:block; }
+      ul.chips li { display:inline-block; margin-bottom:8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="text-align:center; padding-bottom:10px;">
+      <h1 style="margin:10px;">NUR AMALIENA — Personal Resume Website</h1>
+      <div style="
+        margin-top:4px;
+        color:black;
+        font-style:italic;
+        font-family:'Dancing Script';
+        font-size:19px;
+        font-weight:600;">
+        "You are capable of more than you think — trust your efforts"
+      </div>
+    </div>
+
+    <nav class="nav-list" style="display:flex; justify-content:center; gap:8px; padding:12px 0;">
+      <a href="index.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Home</a>
+      <a href="about.html" class="active" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">About</a>
+      <a href="skills.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Skills</a>
+      <a href="experience.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Experience</a>
+      <a href="education.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Education</a>
+      <a href="family.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Family</a>
+      <a href="gallery.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Gallery</a>
+    </nav>
+  </header>
+<div style="text-align:center; margin-top:20px;">
+  <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
+    Current Time: --
+  </div>
+<script>
+  function updateClock() {
+    const now = new Date();
+    const time = now.toLocaleTimeString();
+    document.getElementById("clock").textContent = "Current Time: " + time;
+  }
+  setInterval(updateClock, 1000);
+  updateClock();
+</script>
+</div>
