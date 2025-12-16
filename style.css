@@ -85,9 +85,6 @@ body {
       ul.chips { display:block; }
       ul.chips li { display:inline-block; margin-bottom:8px; }
     }
-  </style>
-</head>
-<body>
 .header-title {
   text-align: center;
   width: 100%;
@@ -142,6 +139,19 @@ footer .footer-copy {
   font-weight: bold;
   color: #e6418b;           
 }
+.clock-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#clock {
+  font-size: 15px;
+  font-weight: bold;
+  color: #e6418b;
+  margin-bottom: 10px;
+}
+
+
 
 
 
