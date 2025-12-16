@@ -126,6 +126,23 @@ body {
   font-weight: bold;
   color: purple;
 }
+footer {
+  text-align: center;       
+  padding: 15px 0;          
+  background-color: #f2f2f2; 
+  font-size: 14px;
+  color: #555;              
+}
+
+footer .footer-text {
+  margin-bottom: 8px;       
+}
+
+footer .footer-copy {
+  font-weight: bold;
+  color: #e6418b;           
+}
+
 
 
 
