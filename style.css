@@ -1,14 +1,12 @@
-body {
-      background: linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff);
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-.with-wallpaper {
-  background-image: url('wallpaper.jpeg');
+body.with-wallpaper {
+  background: 
+    linear-gradient(to right, #ffb3e0, #ffd6eb, #c7d9ff),
+    url('wallpaper.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
     main.container {
       max-width: 900px;
       margin: 40px auto;
@@ -177,6 +175,7 @@ footer .footer-copy {
   border-radius: 12px;
   border: none;
 }
+
 
 
 
