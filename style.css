@@ -94,8 +94,10 @@ header {
 }
 
 .header-title h1 {
- text-align: center;    
-  margin: 10px;
+ display: block;         
+  width: 100%;           
+  text-align: center;      
+  margin: 10px auto;       
 }
 
 .header-quote {
@@ -124,20 +126,8 @@ header {
   font-weight: bold;
   color: purple;
 }
-<div style="text-align:center; margin-top:20px;">
-  <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
-    Current Time: --
-  </div>
-<script>
-  function updateClock() {
-    const now = new Date();
-    const time = now.toLocaleTimeString();
-    document.getElementById("clock").textContent = "Current Time: " + time;
-  }
-  setInterval(updateClock, 1000);
-  updateClock();
-</script>
-</div>
+
+
 
 
 
