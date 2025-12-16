@@ -97,29 +97,10 @@ header {
   margin: 10px;
 }
 
-.quote {
-  margin-top: 4px;
-  color: black;
-justify-content: center;
-  font-style: italic;
-  font-family: 'Dancing Script', cursive;
-  font-size: 19px;
-  font-weight: 600;
-}
-
-header {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.header-title h1 {
-  margin: 10px;
-}
-
 .header-quote {
   margin-top: 4px;
   color: black;
-justify-content:center;
+  text-align: center;  
   font-style: italic;
   font-family: 'Dancing Script', cursive;
   font-size: 19px;
@@ -128,8 +109,8 @@ justify-content:center;
 
 .nav-list {
   display: flex;
-  justify-content: center;
-align-items: center; 
+  justify-content: center;  
+  align-items: center;      
   gap: 8px;
   padding: 12px 0;
 }
@@ -147,12 +128,6 @@ align-items: center;
 .nav-list a:hover {
   background: #f2e6ff;
 }
-
-.nav-list a.active {
-  background: purple;
-  color: white;
-}
-
 <div style="text-align:center; margin-top:20px;">
   <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
     Current Time: --
@@ -175,6 +150,7 @@ align-items: center;
       <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
     </center>
   </footer>
+
 
 
 
