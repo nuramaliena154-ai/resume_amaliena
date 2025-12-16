@@ -123,10 +123,6 @@ header {
   font-weight: bold;
   color: purple;
 }
-
-.nav-list a:hover {
-  background: #f2e6ff;
-}
 <div style="text-align:center; margin-top:20px;">
   <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
     Current Time: --
@@ -149,6 +145,7 @@ header {
       <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
     </center>
   </footer>
+
 
 
 
