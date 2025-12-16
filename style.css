@@ -89,31 +89,51 @@ body {
   </style>
 </head>
 <body>
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
 
-  <header>
-    <div style="text-align:center; padding-bottom:10px;">
-      <h1 style="margin:10px;">NUR AMALIENA — Personal Resume Website</h1>
-      <div style="
-        margin-top:4px;
-        color:black;
-        font-style:italic;
-        font-family:'Dancing Script';
-        font-size:19px;
-        font-weight:600;">
-        "You are capable of more than you think — trust your efforts"
-      </div>
-    </div>
+.header-title h1 {
+  margin: 10px;
+}
 
-    <nav class="nav-list" style="display:flex; justify-content:center; gap:8px; padding:12px 0;">
-      <a href="index.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Home</a>
-      <a href="about.html" class="active" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">About</a>
-      <a href="skills.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Skills</a>
-      <a href="experience.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Experience</a>
-      <a href="education.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Education</a>
-      <a href="family.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Family</a>
-      <a href="gallery.html" style="padding:8px 11px; background:white; border-radius:20px; text-decoration:none; font-weight:bold; color:purple;">Gallery</a>
-    </nav>
-  </header>
+.quote {
+  margin-top: 4px;
+  color: black;
+  font-style: italic;
+  font-family: 'Dancing Script', cursive;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* NAVIGATION */
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.nav-list a {
+  padding: 8px 11px;
+  background: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: purple;
+}
+
+.nav-list a:hover {
+  background: #f3e8ff;
+}
+
+.nav-list a.active {
+  background: purple;
+  color: white;
+}
+
+ 
 <div style="text-align:center; margin-top:20px;">
   <div id="clock" style="font-size:15px; font-weight:bold; color:#e6418b; margin-bottom:10px;">
     Current Time: --
@@ -136,4 +156,5 @@ body {
       <div style="margin-top:8px;">© 2025 NUR AMALIENA</div>
     </center>
   </footer>
+
 
